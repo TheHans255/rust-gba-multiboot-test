@@ -1,6 +1,12 @@
 # rust-gba-multiboot-test
 Code sample/proof of concept for sending multiboot games using the Rust GBA crate
 
+- `main.rs` - An example GBA program with the multiboot initiation code injected in
+- `gba_multiboot.rs` - Defines the multiboot protocol as must be implemented
+   on the host cartridge
+- `gba_multiboot_bios.rs` - Defines the multiboot syscall and its associated
+   data structures.
+
 # Prerequisite Files
 
 To run this project, you need two files, neither of which I can legally supply:
